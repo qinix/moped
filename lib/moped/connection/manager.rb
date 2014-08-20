@@ -14,10 +14,10 @@ module Moped
       MUTEX = Mutex.new
 
       # The default max size for the connection pool.
-      POOL_SIZE = 5
+      POOL_SIZE = 10
 
       # The default timeout for getting connections from the queue.
-      TIMEOUT = 0.5
+      TIMEOUT = 5
 
       # Get a connection pool for the provided node.
       #
